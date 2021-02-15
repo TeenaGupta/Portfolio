@@ -42,7 +42,7 @@ html{
     position: fixed;
     left: 0%;
     bottom:-2%;
-    width: 80%;
+    width: 80%; 
 }
 #body{
     background: url('../assets/images/back.jpg') no-repeat;
@@ -115,3 +115,65 @@ html{
     80%{opacity:0;}
     100%{opacity:1;}
     }
+
+@media screen and (max-width: 1295px){
+    html{
+        font-size: 14px;
+    }
+    .navbar{
+        line-height:50px;
+        margin-left: -2%;
+    }
+    .gif{
+        bottom:0%;
+    }
+}
+
+@media screen and (min-width: 731px) and (max-width: 968px){
+    html{
+        font-size: 12px;
+    }
+    .navbar{
+        line-height:50px;
+        margin-left: -2%;
+        margin-top:1%;
+    }
+    .gif{
+        bottom:3%;
+    }
+}
+@media screen and (max-width: 730px){
+    html{
+        font-size: 10px;
+    }
+    .navbar{
+        line-height:50px;
+        margin-left: -4%;
+        margin-top:2%;
+    }
+    .gif{
+        bottom:5%;
+    }
+}
+@media screen and (max-width: 500px){
+    html{
+        font-size:9px;
+    }
+    .navbar{
+        line-height:55px;
+        margin-left: -7%;
+    }
+ 
+}
+@media screen and (max-width: 340px){
+    html{
+        font-size: 6px;
+    }
+    .navbar{
+        line-height:55px;
+        margin-left: -7%;
+        margin-top:5%;
+    }
+  
+    
+}
