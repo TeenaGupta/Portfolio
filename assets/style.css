@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.curtain_container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.curtain_wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.curtain{
+    width: 50%;
+    height:90vh;
+    float: left;
+    position: relative;
+    transition: transform 5s linear;
+}
+#img2{
+    width: 105%;
+    height: 91vh;     
+    position: fixed;
+    left: -1%;
+    top: -1%;
+}
+#img3{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.gif{
+    position: fixed;
+    left: 0%;
+    bottom:-2%;
+    width: 80%;
+}
+#body{
+    background: url('../assets/images/back.jpg') no-repeat;
+    background-size: 100vw 100vh;
+    position: fixed;
+}
+.navbar ul li a.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    visibility: hidden;
+    line-height:3rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    transform: translate(43vw, -65vh); 
+    font-size: 2rem;
+     text-shadow: 
+    1px -1px 10px rgba(255, 255, 255, 0.6), 
+    0px -1px 10px rgba(255, 255, 255, 0.6),  
+   -1px -1px 10px rgba(255, 255, 255, 0.6), 
+    0px -2px 3px black, 
+   -1px -2px 3px black, 
+   -2px -2px 3px black,
+   -1px -3px 2px black, 
+   -2px -3px 2px black, 
+   -3px -3px 2px black,
+   -2px -4px 2px black, 
+   -3px -4px 2px black, 
+   -4px -4px 2px black,
+   -3px -5px 1px black, 
+   -4px -5px 1px black, 
+   -5px -5px 1px black;    
+}
+.navbar ul li a:hover{
+  text-shadow:  
+   1px -1px 10px rgba(255, 255, 255, 0.6), 
+  0px -1px 10px rgba(255, 255, 255, 0.6),  
+ -1px -1px 10px rgba(255, 255, 255, 0.6),
+ 1px 2px 7px black, 
+ 1px 2px 7px black, 
+ 1px 2px 7px black,
+ 1px 3px 6px black,
+ 1px 3px 6px black, 
+ 1px 3px 6px black, 
+ 1px 4px 5px black, 
+ 1px 4px 5px black, 
+ 1px 4px 5px black, 
+ 1px 5px 4px black, 
+ 1px 5px 4px black, 
+ 1px 5px 4px black, 
+ 1px 6px 3px black, 
+ 1px 6px 3px black, 
+ 1px 6px 3px black, 
+ 1px 7px 2px black, 
+ 1px 7px 2px black, 
+ 1px 7px 2px black, 
+ 1px 8px 1px black, 
+ 1px 8px 1px black, 
+ 1px 8px 1px black;
+}
+.nav-links{
+  animation: fadeIn 5s;
+    }
+  @keyframes fadeIn{
+    0%{opacity:0;}  
+    80%{opacity:0;}
+    100%{opacity:1;}
+    }
